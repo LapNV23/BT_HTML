@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/boostrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Login Page</h2>
+    <form>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="txtPassword" placeholder="Enter password"
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox" id="cbShowPassword"> Show Password</label>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+    <div class="form-group">
+    Known Languages:
+    <div class="checkbox">
+    <label><input type="checkbox" name="language" value="English" />English</label>
+    <br /><br />
+    <label> <input type="checkbox" name="language" value="German"/>German</label>
+</div>
+Selected Languages:<br />
+    <label> <div id="divlanguage"></div> </label>
+    <br />
+</div>
+</form>
+</body>
+</html>
