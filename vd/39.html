@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com//bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFK1dGenJRAkycuHAHRg32omUcww7on3RYdg4Va+PmSTsz/k68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.is"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/jx/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            $('#btnSubmit').click(function (){
+                $('#myAlert').show('fade');
+            });
+            $('#linkClose').click(function (){
+                $('#myAlert').hide('fade');
+            });
+        });
+    </script>
+</head>
+<body style="font-family: Arial">
+<form id="forml" runat="server">
+    <div style="width: 500px; border: 1px solid black; padding: 5px">
+        <table id="datatable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Continent</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Monteria</td>
+                <td>Colombia</td>
+                <td>South America</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Birmingham</td>
+                <td>United Kingdom</td>
+                <td>Europe</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bangalore</td>
+                <td>India</td>
+                <td>Asia</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+
+</body>
+</html>
